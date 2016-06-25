@@ -21,6 +21,7 @@
 using namespace std;
 
 const int ROWS = 5, COLS = 5;
+const int PROG_EXIT = 7;
 int arrayTotal(int[][COLS]);
 int arrayAverage(int[][COLS]);
 int arrayTotalRow(int[][COLS]);
