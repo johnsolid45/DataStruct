@@ -40,6 +40,7 @@ struct PhotoStuff {
 /*Function prototypes*/
 int getValidNumEntry();
 int getNumVal();
+string getValidStringEntry(int charLim);
 PhotoStuff *photoCreate(PhotoStuff[100]);
 void photoDisplay(PhotoStuff[100]);
 
@@ -99,9 +100,20 @@ int getNumVal(int low, int high) {
 PhotoStuff *photoCreate(PhotoStuff arr[100]) {
     bool cont = true;
     int count = 0;
+    string another;
     while(cont) {
         cout << "Please enter the image number" << endl;
         arr[count].imgNum = getNumVal(0, 10);
+        arr[count].imgName = getNumVal(0, 10);
+        arr[count].imgType = getNumVal(0, 10);
+        arr[count].numSold = getNumVal(0, 10);
+        arr[count].price = getNumVal(0, 10);
+        while() {
+            cout << "Would you like to enter another entry? Enter yes or no.\n";
+            another = getValidStringEntry(10);
+            if (another)
+        }
     }
+    
 }
 
