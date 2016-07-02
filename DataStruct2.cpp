@@ -55,13 +55,13 @@ int main()
         /* Displays the option menu list to user */
         cout << "Please select an array operation from the list\n"
              << setfill('-') << setw(80) << '-' << endl
-             << "1. Find the sum total value of all array elements\n>"
-             << "2. Find the average for all array elements\n>"
-	     << "3. Find the sum total value of a single array row\n>"
-	     << "4. Find the sum total value of a single array column\n>"
-             << "5. Find the highest value in a single array row\n>"
-             << "6. Find the lowest value in a single array row\n>"
-             << "7. Exit the program\n>"
+             << "1. Find the sum total value of all array elements\n"
+             << "2. Find the average for all array elements\n"
+	     << "3. Find the sum total value of a single array row\n"
+	     << "4. Find the sum total value of a single array column\n"
+             << "5. Find the highest value in a single array row\n"
+             << "6. Find the lowest value in a single array row\n"
+             << "7. Exit the program\n"
              << setfill('-') << setw(80) << '-' << endl;
        choice = getValidEntry(); //Sets choice to a valid entry
    
